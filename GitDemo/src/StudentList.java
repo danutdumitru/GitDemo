@@ -7,7 +7,7 @@ public class StudentList {
 		
 	}
 	
-	public static void listStudents()
+	public static void listStudents2()
 	{
 		List<Student> lst = Student.getStudentsList();
 		lst.forEach(e -> System.out.println(e.toString()));
